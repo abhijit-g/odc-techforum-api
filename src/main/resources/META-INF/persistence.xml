@@ -6,7 +6,7 @@
 	<persistence-unit name="odc-techforum"
 		transaction-type="JTA">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<jta-data-source>java:jboss/datasources/MysqlDS</jta-data-source>
+		<jta-data-source>java:jboss/datasources/MySQLDS</jta-data-source>
 		<class>net.wlp.odc.techforum.model.Foo</class>
 		<class>net.atos.odc.techforum.app.model.Session</class>
 		<class>net.atos.odc.techforum.app.model.Presenter</class>
